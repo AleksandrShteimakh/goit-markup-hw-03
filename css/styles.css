@@ -1,0 +1,239 @@
+/* основной цвет фона #E5E5E5; */
+/* цвет основного текста #757575 */
+/*  вторичный цвет секции и футера  #2F303A; */
+/* цвет текста белый #FFFFFF */
+/* цвет текста синий #2196F3 */
+/* цвет заголовков #212121 */
+/* цвет блока #F5F4FA */
+
+/* кастомные css свойства */
+/* пишем color: var(--primery-text-color); и тд  */
+
+:root {
+  --primery-text-color: #757575;
+  --title-text-color: #212121;
+  --acent-color: #2196f3;
+  --primery-white-color: #ffffff;
+  --primery-black-color: #000000;
+  --footer-color: #2f303a;
+}
+
+body {
+  background: var(--primery-white-color);
+  font-family: "Roboto", sans-serif;
+  letter-spacing: 0.03em;
+}
+
+.header-page {
+  /* display: flex; */
+}
+/* отмена точек в списках ul */
+
+.style {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.container {
+  /* outline: 2px solid tomato; */
+
+  width: 1200px;
+  margin: 0 auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+/* logo */
+.logo,
+.logo-footer {
+  text-decoration: none;
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  color: var(--acent-color);
+}
+.logo-footer {
+  display: inline-block;
+  margin-top: 60px;
+}
+
+.logo-styles3 {
+  color: var(--primery-white-color);
+}
+.logo-styles {
+  color: var(--acent-color);
+  text-decoration: none;
+}
+.logo-styles2 {
+  color: var(--primery-black-color);
+  text-decoration: none;
+}
+
+.number {
+  color: var(--primery-text-color);
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+.number:hover,
+.number:focus {
+  color: var(--acent-color);
+}
+/* site nav */
+.site-nav {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+
+  margin: 0;
+
+  cursor: pointer;
+}
+
+.site-nav .nav-text:hover,
+.site-nav .nav-text:focus {
+  color: var(--acent-color);
+}
+.nav-text {
+  color: var(--title-text-color);
+  text-decoration: none;
+}
+.auth-nav {
+  display: flex;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+/* hero */
+.hero {
+  background-color: var(--footer-color);
+  text-align: center;
+}
+.hero-title {
+  width: 696px;
+  margin-top: 0;
+  margin-bottom: 20px;
+  margin-right: auto;
+  margin-left: auto;
+
+  color: var(--primery-white-color);
+
+  font-size: 44px;
+  line-height: 1.36;
+
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+button {
+  font-family: inherit;
+}
+.btn {
+  margin-bottom: 200px;
+  text-align: center;
+  min-width: 200px;
+  /* display: inline-block; */
+  padding: 10px 32px;
+  background-color: var(--acent-color);
+  color: var(--primery-white-color);
+  border-radius: 4px;
+  cursor: pointer;
+}
+.btn:hover {
+  color: var(--primery-black-color);
+}
+
+/* .section {
+  padding-bottom: 94px;
+} */
+
+.section-title {
+  margin-top: 94px;
+  margin-bottom: 10px;
+  color: var(--title-text-color);
+
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
+}
+
+.section-text {
+  margin-top: 0;
+  margin-bottom: 94px;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+
+  color: var(--primery-text-color);
+}
+.feature {
+  display: flex;
+  margin-top: 0;
+  padding-bottom: 94px;
+}
+.feature-title {
+  margin-top: 0;
+  margin-bottom: 50px;
+  columns: var(--title-text-color);
+
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+}
+
+.padding-team {
+  padding-top: 94px;
+}
+.margin-left {
+  margin-left: 30px;
+}
+.name-title {
+  margin-top: 0;
+  margin-bottom: 10px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19em;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+.photo {
+  margin-bottom: 30px;
+}
+.profesy {
+  margin-top: 0;
+  margin-bottom: 30px;
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+
+  letter-spacing: 0.03em;
+
+  color: var(--primery-text-color);
+}
+
+/* кнопка */
+
+address {
+  display: block;
+
+  font-style: normal;
+}
+.adress-styles {
+  color: var(--primery-white-color);
+  text-decoration: none;
+}
+.adress-styles:hover,
+.adress-styles:focus {
+  color: var(--acent-color);
+}
+.address-ul {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.footer {
+  outline: 3px solid tomato;
+  background-color: var(--footer-color);
+}
