@@ -40,7 +40,6 @@ ul {
 /* header */
 .header {
   border-bottom: 2px solid #eeeeee;
-  /
 }
 
 .header-box,
@@ -162,7 +161,6 @@ button {
   display: flex;
   padding-top: 94px;
   padding-bottom: 94px;
-
 }
 .main-item {
   margin-right: 30px;
@@ -199,7 +197,6 @@ button {
 .work {
   padding-top: 94px;
   padding-bottom: 94px;
-
 }
 .work-title {
   margin-bottom: 50px;
@@ -324,7 +321,7 @@ button {
 
 /* ------------portfolio------------- */
 .section-portfolio {
-/* outline: 2px solid tomato; */
+  /* outline: 2px solid tomato; */
   padding-bottom: 94px;
   padding-top: 94px;
 }
@@ -365,12 +362,7 @@ button {
   margin-bottom: 30px;
   margin-right: 8px;
 }
-.portfolio-page {
-  /* margin-bottom: 20px; */
-}
-.portfolio-page:last-child {
-  margin-right: 0;
-}
+
 .portfolio-title {
   padding-top: 20px;
   margin-left: 24px;
@@ -397,7 +389,12 @@ button {
   color: var(--primery-text-color);
 }
 .card-border {
+  width: 370px;
+  margin-right: 30px;
   margin-bottom: 30px;
-  /* margin-right: 25px; */
+
   border: 1px solid #eeeeee;
+}
+.card-border:nth-child(3n) {
+  margin-right: 0;
 }
