@@ -130,18 +130,20 @@ ul {
   color: var(--acent-color);
 }
 
-/* hero */
+/* -----------hero------------ */
 
 .hero {
   text-align: center;
   background-color: var(--footer-color);
-}
-.hero-box {
   padding-top: 200px;
   padding-bottom: 200px;
 }
+
 .hero-title {
   margin-bottom: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 696px;
 
   font-style: normal;
   font-size: 44px;
@@ -382,7 +384,7 @@ button {
 }
 .main-link {
   display: flex;
-  padding-bottom: 34px;
+  margin-bottom: 34px;
 
   justify-content: center;
 }
@@ -421,8 +423,6 @@ button {
   margin-right: 0;
 }
 .portfolio-title {
-  padding-top: 20px;
-
   margin-bottom: 4px;
   font-style: normal;
   font-weight: 700;
@@ -434,8 +434,6 @@ button {
   color: var(--primery-black-color);
 }
 .portfolio-text {
-  padding-bottom: 20px;
-
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
